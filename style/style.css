@@ -1,0 +1,253 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+p {
+	color: #3a3a3a;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 7%;
+}
+
+.options {
+	display: grid;
+	grid-gap: 0 20px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	font-weight: 500;
+}
+
+.options p {
+	text-align: center;
+}
+
+.heading {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 70px;
+	margin-bottom: 90px;
+	padding: 0 7%;
+}
+
+.heading img {
+	width: 500px;
+	border-radius: 50%;
+}
+
+.heading-text {
+	font-size: 120%;
+	position: relative;
+	padding-right: 30px;
+	top: 30px;
+}
+
+.heading-text h1 {
+	font-size: 4rem;
+	width: 80%;
+}
+
+.highlight {
+	    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: linear-gradient(#FFF55C,#FFF55C);
+    background-size: 100% 10px;
+}
+
+.heading-text p {
+	line-height: 1.5;
+	margin-top: -10px;
+	width: 90%;
+}
+
+button.heading-button {
+	background-color: #017EC6;
+	padding: 15px 30px;
+	color: white;
+	font-size: 18px;
+	border-radius: 5px;
+	outline: none;
+	box-shadow: none;
+	border: none;
+	margin-top: 15px;
+}
+
+.loans {
+	background-color: #017EC6;
+	padding: 50px 7%;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+.loans h1 {
+	font-size: 2.5rem;
+	color: white;
+}
+
+.loans img {
+	border-radius: 50%;
+}
+
+.loan-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 70%;
+	position: relative;
+	margin: auto;
+}
+
+.loan-item {
+	width: 300px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 30px;
+	position: relative;
+	margin: 20px auto;
+}
+
+.loan-button {
+	background-color: #017EC6;
+	padding: 15px 30px;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	outline: none;
+	box-shadow: none;
+	border: none;
+	margin-top: 15px;
+}
+
+.apply {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 100px;
+	padding: 0 7%;
+}
+
+.apply img {
+	width: 400px;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+
+.apply-text {
+	font-size: 110%;
+	position: relative;
+	padding-left: 10px;
+	width: 120%;
+}
+
+.apply-text h1 {
+	font-size: 3rem;
+	width: 80%;
+}
+
+.apply-text p {
+	line-height: 1.5;
+	margin-top: -10px;
+	width: 90%;
+}
+
+.apply-button {
+	background-color: #017EC6;
+	padding: 15px 30px;
+	color: white;
+	font-size: 18px;
+	border-radius: 5px;
+	outline: none;
+	box-shadow: none;
+	border: none;
+	margin-top: 15px;
+}
+
+.services {
+	background-color: #017EC6;
+	padding: 70px 7%;
+	padding-bottom: 90px;
+	text-align: center;
+}
+
+.services h1 {
+	font-size: 2.5rem;
+	color: white;
+}
+
+.service-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	position: relative;
+	margin: auto;
+}
+
+.service-item {
+	width: 300px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 30px;
+	position: relative;
+	margin: 20px auto;
+}
+
+.service-button {
+	background-color: #017EC6;
+	padding: 15px 30px;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	outline: none;
+	box-shadow: none;
+	border: none;
+	margin-top: 15px;
+}
+
+.loan-calc {
+	padding: 70px 0;
+}
+
+.contact-us {
+	padding: 70px 25%;
+	text-align: center;
+	font-size: 130%;
+	background-color: #f9f9f9;
+}
+
+.footer {
+	background-color: #017EC6;
+	padding: 50px 5%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 70px;
+	color: white;
+}
+
+.footer-item {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 20px;
+}
+
+.footer p {
+	color: #fafafa;
+	display: inline-block;
+	min-width: 80px;
+}
+
+.footer p:hover {
+	color: #FFF55C;
+	cursor: pointer;
+}
+
+.footer-icon {
+	display: grid;
+	width: 50%;
+	grid-column-gap: 5px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-icon i:hover {
+	color: #FFF55C;
+	cursor: pointer;
+}
