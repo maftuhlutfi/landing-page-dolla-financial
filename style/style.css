@@ -14,14 +14,14 @@ p {
 }
 
 .options {
-	display: grid;
-	grid-gap: 0 20px;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	font-weight: 500;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
-.options p {
+.options a {
 	text-align: center;
+	margin: 0 15px;
 }
 
 .heading {
