@@ -7,6 +7,30 @@ p {
 	color: #3a3a3a;
 }
 
+a:link {
+  color: #3a3a3a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #3a3a3a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3a3a3a;
+  background-color: transparent;
+  text-decoration: #017EC6;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -21,7 +45,19 @@ p {
 
 .options a {
 	text-align: center;
-	margin: 0 15px;
+	padding: 10px 20px;
+}
+
+.options a:last-child {
+	background-color: #017EC6;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 5px; 
+}
+
+a.active {
+	border-bottom: 3px solid #017EC6;
+	margin: 0 3px;
 }
 
 .heading {

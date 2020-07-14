@@ -161,6 +161,13 @@ button {
 	margin-top: 15px;
 }
 
+.contact-us {
+	padding: 70px 25%;
+	text-align: center;
+	font-size: 130%;
+	background-color: #f9f9f9;
+}
+
 .footer {
 	background-color: #017EC6;
 	padding: 50px 5%;
